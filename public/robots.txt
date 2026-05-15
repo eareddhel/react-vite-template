@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# sitemap: https://tudominio.com/sitemap.xml

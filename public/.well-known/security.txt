@@ -1,0 +1,5 @@
+Contact: mailto:contacto@tudominio.com
+Expires: 2026-12-30T04:00:00.000Z
+Preferred-Languages: es
+Canonical: https://tudominio.com/.well-known/security.txt
+Policy: https://tudominio.com/politica-privacidad
