@@ -33,6 +33,7 @@ Template base React optimizado para el estándar **CEDS**.
 4.  **Verificación:** Ejecuta `pnpm dev`. Si el panel de "Problemas" en VS Code marca **0**, la configuración de TypeScript y los alias de ruta (`@/`) están operando correctamente.
 
 ## Estructura del proyecto
+   ```bash
 react-vite-template/
 ├── node_modules/             # dependencias instaladas por pnpm (no se sube al repo)
 ├── public/                   # activos estáticos que se copian tal cual a la raíz en la build
