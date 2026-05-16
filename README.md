@@ -14,6 +14,10 @@ Template base React optimizado para el estándar **CEDS**.
 - **Seguridad:** POST para envío de datos, sesiones PHP activas y Política de Privacidad Estricta.
 - **CSS:** Estilos globales en `src/index.css`, componentes UI en `src/components/ui`.
 
+## Documentación
+/docs/
+/README.md -> este documento.
+
 ## 🚀 Instalación en equipo nuevo
 1. Clonar repositorio o "Use this template".
 2. Ejecutar instalación de dependencias:
@@ -35,6 +39,7 @@ Template base React optimizado para el estándar **CEDS**.
 ## Estructura del proyecto
    ```bash
 react-vite-template/
+├── docs/                     # documentación del proyecto
 ├── node_modules/             # dependencias instaladas por pnpm (no se sube al repo)
 ├── public/                   # activos estáticos que se copian tal cual a la raíz en la build
 │   ├── .well-known/          # directorio para estándares de descubrimiento web
@@ -42,6 +47,7 @@ react-vite-template/
 │   ├── favicon.ico           # icono de la pestaña del navegador
 │   ├── robots.txt            # instrucciones para rastreadores y exclusión de /api/
 │   └── manifest.webmanifest  # configuración para que la pwa sea instalable
+├── sql/                      # respaldos de bd e historial de migraciones
 ├── src/                      # código fuente de la aplicación
 │   ├── api/                  # scripts para conectar con tus archivos php
 │   ├── assets/               # imágenes, fuentes y archivos multimedia locales
@@ -58,6 +64,7 @@ react-vite-template/
 │   ├── index.css             # estilos globales y configuración de temas tailwind v4
 │   └── main.tsx              # punto de montaje de react en el dom (id="root")
 │
+├── .env.example              # archivo de variables de entorno de ejemplo. nunca subir con datos reales al repo
 ├── .gitignore                # archivos y carpetas excluidos del control de versiones git
 ├── components.json           # configuración de shadcn ui para la instalación de componentes
 ├── eslint.config.js          # reglas de linter para mantener la calidad del código js/ts
