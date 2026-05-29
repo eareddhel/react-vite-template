@@ -12,11 +12,11 @@ Template base React optimizado para el estándar **CEDS**.
 - **Tabulaciones:** 2 espacios.
 - **Comentarios:** Siempre en minúsculas.
 - **Seguridad:** POST para envío de datos, sesiones PHP activas y Política de Privacidad Estricta.
-- **CSS:** Estilos globales en `src/index.css`, componentes UI en `src/components/ui`.
+- **CSS:** Estilos globales en `src/global.css`, componentes UI en `src/components/ui`.
 
 ## Documentación
 /docs/
-/README.md -> este documento.
+- **CSS:** Estilos globales en `src/global.css`, componentes UI en `src/components/ui`.
 
 ## 🚀 Instalación en equipo nuevo
 1. Clonar repositorio o "Use this template".
@@ -61,7 +61,7 @@ react-vite-template/
 │   ├── services/             # lógica de peticiones post y procesamiento de datos ceds
 │   ├── types/                # definiciones y contratos de interfaces typescript (.d.ts)
 │   ├── App.tsx               # componente raíz que orquestra las rutas y estados globales
-│   ├── index.css             # estilos globales y configuración de temas tailwind v4
+│   ├── global.css            # estilos globales y configuración de temas tailwind v4
 │   └── main.tsx              # punto de montaje de react en el dom (id="root")
 │
 ├── .env.example              # archivo de variables de entorno de ejemplo. nunca subir con datos reales al repo
