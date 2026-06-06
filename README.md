@@ -39,7 +39,10 @@ Template base React optimizado para el estándar **CEDS**.
 ## Estructura del proyecto
    ```bash
 react-vite-template/
+├── debug/                    # archivos de depuración y logs
+├── dist/                     # archivos compilados para producción (generados por vite. no subir al repositorio)
 ├── docs/                     # documentación del proyecto
+├── migrations/               # archivos de migración de la base de datos
 ├── node_modules/             # dependencias instaladas por pnpm (no se sube al repo)
 ├── public/                   # activos estáticos que se copian tal cual a la raíz en la build
 │   ├── .well-known/          # directorio para estándares de descubrimiento web
@@ -47,7 +50,8 @@ react-vite-template/
 │   ├── favicon.ico           # icono de la pestaña del navegador
 │   ├── robots.txt            # instrucciones para rastreadores y exclusión de /api/
 │   └── manifest.webmanifest  # configuración para que la pwa sea instalable
-├── sql/                      # respaldos de bd e historial de migraciones
+├── scripts/                  # scripts de automatización y utilidades
+├── sql/                      # respaldos de bd y scripts de creación de tablas
 ├── src/                      # código fuente de la aplicación
 │   ├── api/                  # scripts para conectar con tus archivos php
 │   ├── assets/               # imágenes, fuentes y archivos multimedia locales
@@ -63,6 +67,7 @@ react-vite-template/
 │   ├── App.tsx               # componente raíz que orquestra las rutas y estados globales
 │   ├── global.css            # estilos globales y configuración de temas tailwind v4
 │   └── main.tsx              # punto de montaje de react en el dom (id="root")
+├── test/                     # pruebas unitarias y de integración
 │
 ├── .env.example              # archivo de variables de entorno de ejemplo. nunca subir con datos reales al repo
 ├── .gitignore                # archivos y carpetas excluidos del control de versiones git
